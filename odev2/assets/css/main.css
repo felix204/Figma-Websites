@@ -96,20 +96,21 @@ table {
     
 }
 
-/* Main Areas */
+/* Main Areas Start */
 
 .hero-container {
+    min-width: 100vh;
     min-height: 100vh;
     background-image: url("/assets/img/Hero-Area-Background.jpg");
     background-size: cover;
 }
 
-.container .hero-area {
+.hero-area {
     padding-top: 15vh;   
     position: relative;
 }
 
-.container .hero-area h1{
+.hero-area h1{
     display: grid;
     justify-content: center;
     padding-bottom: 20px;
@@ -122,17 +123,20 @@ table {
     padding-top: 50px;
 }
 
-.container .hero-area .description {
+.hero-area .description {
     position: absolute;
     width: 100%;
     opacity: 0.5;
 }
 
+/* Main Areas End */
 
-/* Mid Areas */
+
+/* Mid Areas Start */
 
 
 .mid-container {
+    min-width: 100vh;
     min-height: 100vh;
     background-image: url("/assets/img/Mid-Area-Background.jpg");
     background-size: cover;
@@ -143,3 +147,69 @@ table {
     justify-content: center;
     padding-top: 90px;
 }
+
+/* Mid Areas End */
+
+
+
+/* Last Area Start */ 
+
+.last-container{
+    min-width: 100vh;
+    min-height: 100vh;
+    background-image: url("/assets/img/last-Area-Background.jpg");
+    background-size: cover;
+}
+
+.container-last {
+    display: grid;
+    justify-content: start;
+    padding-top: 5vh;
+}
+
+.container-last .hero-area {
+    padding-left: 20vh;
+    padding-top: 30vh;
+}
+
+.container-last .hero-area {
+    padding-top: 20vh;
+}
+
+.container-last .hero-area .button-area {
+    display: grid;
+    justify-content: start;
+    padding-top: 90px;
+}
+
+.container-last .hero-area .button-area {
+    display: flex;
+    justify-content: start;
+    text-decoration: none;
+
+}
+
+.container-last .hero-area .button-area .communation {
+    display: flex;
+    align-items: center;
+}
+
+.container-last .hero-area .button-area .communation a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+    padding-left: 5vh;
+}
+
+
+
+/* Last Area End */ 
+
+
+/* Form Area Start */
+
+
+
+
+/* Form Area End */
