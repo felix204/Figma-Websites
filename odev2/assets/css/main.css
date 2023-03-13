@@ -23,12 +23,20 @@ time, mark, audio, video {
 
 /* Custom Reset */
 
+h3 {
+    font-size: 40px;
+}
+
 h1 {
     font-size: 60px;
 }
 span {
     color: #2711e7;
     font-size: 60px;
+}
+
+p {
+    opacity: 0.5;
 }
 
 
@@ -113,20 +121,19 @@ table {
 .hero-area h1{
     display: grid;
     justify-content: center;
-    padding-bottom: 20px;
+    padding-top: 10px;
     margin-top: 50px;
 }
 
 .container .hero-area span {
     display: grid;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 .hero-area .description {
     position: absolute;
     width: 100%;
-    opacity: 0.5;
 }
 
 /* Main Areas End */
@@ -169,7 +176,12 @@ table {
 
 .container-last .hero-area {
     padding-left: 20vh;
-    padding-top: 30vh;
+    padding-top: 20vh;
+    
+}
+
+.container-last .hero-area span {
+    padding-top: 25px;
 }
 
 .container-last .hero-area {
@@ -207,9 +219,28 @@ table {
 /* Last Area End */ 
 
 
-/* Form Area Start */
+/* Table Area Start */
+
+.container .header {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 5vh;
+}
+
+.container .table-description {
+    padding-bottom: 5vh;
+    border-bottom: 1px solid #ddd;
+}
+
+.container .description p {
+    text-align: center;
+}
+
+.container .table-area {
+    border-bottom: 1px solid #ddd;
+    padding: 3vh;
+    width: 80%;
+}
 
 
-
-
-/* Form Area End */
+/* Table Area End */
