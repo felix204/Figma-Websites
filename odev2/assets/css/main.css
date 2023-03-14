@@ -39,6 +39,11 @@ p {
     opacity: 0.5;
 }
 
+h5 {
+    font-size: 35px;
+}
+
+
 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -62,7 +67,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 /* Container */
 
@@ -92,7 +97,7 @@ table {
     background-color: #c7e711;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 8px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -221,26 +226,115 @@ table {
 
 /* Table Area Start */
 
+
+
 .container .header {
     display: grid;
     justify-content: center;
     padding-bottom: 5vh;
+    padding-top: 10vh;
 }
 
 .container .table-description {
     padding-bottom: 5vh;
-    border-bottom: 1px solid #ddd;
-}
-
-.container .description p {
     text-align: center;
 }
 
-.container .table-area {
+.table-content {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.table-content .description p {
+    text-align: center;
+}
+
+.table-content .table-area {
     border-bottom: 1px solid #ddd;
     padding: 3vh;
-    width: 80%;
+}
+
+.table-content .table-area h4 {
+    text-align: left;
+}
+
+.table-area p {
+    text-align: left;
+    padding-top: 1vh;
+}
+
+.email {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.email a{
+    text-decoration: none;
 }
 
 
 /* Table Area End */
+
+/* Component Area Start */
+.container{
+    display: grid;
+    justify-content: center;
+}
+
+.container .header {
+    display: grid;
+    justify-content: start;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+
+.container .description p{
+    line-height: 25px;
+}
+
+.container .link {
+    padding-top: 6vh;
+    padding-bottom: 5vh;
+}
+
+/* Component Area End */
+
+
+
+/* Simplekits Area Start */
+
+.container .welcome{
+    color: #d9ff00;
+    font-size: 20px;
+    padding-bottom: 2vh;
+}
+
+.simplekit h4{
+    font-size: 40px;
+    padding-bottom: 1vh;
+    text
+}
+
+.simplekit h3{
+    opacity: 0.5;
+}
+
+.simplekit {
+    padding-bottom: 6vh;
+}
+
+.simplekit-description p{
+    padding-bottom: 2vh;
+}
+
+.last-button-area {
+    padding-top: 4vh;
+}
+
+.learn-button a{
+    color: black;
+}
+
+
+/* Simplekits Area End */
