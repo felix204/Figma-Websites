@@ -18,6 +18,7 @@
 html,
 body {
   height: 100%;
+  background-color: #212121;
 }
 /*
     Typographic tweaks!
@@ -59,6 +60,7 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+  color: white;
 }
 /*
     9. Create a root stacking context
@@ -66,10 +68,6 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
-}
-
-body {
-  background-color: #171717;
 }
 
 
@@ -80,8 +78,9 @@ body {
   text-decoration: none;
   display: block;
   min-width: 150px;
-  background-color: aliceblue;
+  background-color: transparent;
   padding: 1rem;
+  color: aliceblue;
 }
 
 .dropdown span {
@@ -155,8 +154,6 @@ body {
 
 /* Nav Area End */
 
-
-
 /* Hero Area Start */
 
 .hero-area {
@@ -181,7 +178,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  font-family: sans-serif;
+  font-family: sans;
 }
 .button-area {
   display: flex;
@@ -198,18 +195,18 @@ body {
 
 /* Hero Area End */
 
-
-
 /* Partner Area Start */
 
-.partner-area{
-  position: relative;
+.partner-area {
+  height: 167px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .partner-description {
-  position: absolute;
-  padding: 5% 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -217,24 +214,104 @@ body {
   text-align: left;
   color: white;
   opacity: 0.5;
-  
 }
 
-.partner-image{
-  position: absolute;
-  padding: 10% 0;
+.partner-image {
   display: flex;
   align-self: center;
+  opacity: 0.5;
 }
 
-.partner-image img{
+.partner-image img {
   padding-right: 70px;
 }
 
 /* Partner Area End */
 
-
-
 /* Custom Bundles Area Start */
 
+.custom-bundles {
+  height: 819px;
+}
+
+.custom-bundles p {
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0px;
+}
+
+.custom-bundles h2 {
+  color: white;
+  padding-bottom: 72px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.4000000059604645px;
+}
+
 /* Custom Bundles Area End */
+
+/* Integrations Area Start */
+
+.integrations-area {
+  display: flex;
+  align-items: center;
+  height: 700px;
+}
+
+.integrations-desctiption {
+  flex-basis: 65%;
+}
+
+.integrations-desctiption span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: white;
+  
+  
+}
+
+.integrations-desctiption h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.4000000059604645px;
+  padding-top: 30px;
+}
+
+.integrations-area p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.integrations-desctiption a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+}
+
+/* Integrations Area End */
