@@ -101,13 +101,12 @@ h6 {
 
 /* Navigation Area End */
 
-
-
 /* Hero Area Start */
 
 .hero-area {
   display: flex;
   padding-top: 100px;
+  padding-bottom: 120px;
 }
 
 .content-area {
@@ -158,7 +157,7 @@ h6 {
 }
 
 .learn-button {
-  background-color:#0D6EFD;
+  background-color: #0d6efd;
   border: none;
   color: white;
   padding: 16px 40px;
@@ -173,3 +172,106 @@ h6 {
 }
 
 /* Hero Area End */
+
+/* Partner Area Start */
+
+.partner-area {
+  height: 167px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.partner-description {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: black;
+  opacity: 0.1;
+}
+
+.partner-image {
+  display: flex;
+  align-self: center;
+}
+
+.partner-image img {
+  padding-right: 70px;
+}
+
+/* Partner Area End */
+
+/* Product Area Start */
+
+.card-area {
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+}
+.card-area-1 {
+  display: flex;
+}
+
+.card-area-2 {
+  display: flex;
+}
+
+.card-description h3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+  padding-top: 24px;
+}
+
+.card-description p {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  padding-bottom: 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.card-price {
+  display: flex;
+}
+
+.card-price span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-right: 12px;
+}
+
+.card-price p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.card-area-1 {
+  padding-bottom: 82px;
+}
+
+.card-area-2 {
+  padding-bottom: 82px;
+}
+
+/* Product Area End */
