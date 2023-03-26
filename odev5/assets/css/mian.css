@@ -62,9 +62,6 @@ h6 {
   overflow-wrap: break-word;
 }
 
-/*
-    font-family: 'Montserrat', sans-serif;
-*/
 
 /* Container */
 
@@ -100,6 +97,8 @@ h6 {
 }
 
 /* Navigation Area End */
+
+
 
 /* Hero Area Start */
 
@@ -173,6 +172,8 @@ h6 {
 
 /* Hero Area End */
 
+
+
 /* Partner Area Start */
 
 .partner-area {
@@ -204,6 +205,8 @@ h6 {
 }
 
 /* Partner Area End */
+
+
 
 /* Product Area Start */
 
@@ -275,3 +278,39 @@ h6 {
 }
 
 /* Product Area End */
+
+
+
+/* Custom Bundles Area Start  */
+
+.bundle-area {
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
+
+.bundle-header {
+  display: flex;
+  position: relative;
+  padding-bottom: 64px;
+}
+
+.bundle-header img{
+  position: absolute;
+  bottom: 70px;
+  left: 340px;
+}
+
+.bundle-header h3{
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.4000000059604645px;
+}
+
+.bundle-image {
+  display: flex;
+  gap: 30px;
+}
+
+/* Custom Bundles Area End  */
