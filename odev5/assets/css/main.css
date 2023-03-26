@@ -369,6 +369,7 @@ hr {
 
 .question-area {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .question-area h5 {
@@ -417,3 +418,14 @@ hr {
 }
 
 /* Question Area End */
+
+
+
+/* Imange Area Start */
+.call-to-action {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+/* Imange Area End */
