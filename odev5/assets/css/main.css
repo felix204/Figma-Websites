@@ -421,7 +421,7 @@ hr {
 
 /* Footer Area Start */
 
-.footer-area-first {
+.footer-area-up {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -445,7 +445,7 @@ hr {
   color: #212121;
 }
 
-.footer-area-last {
+.footer-area-down {
   display: flex;
   justify-content: space-between;
 }
