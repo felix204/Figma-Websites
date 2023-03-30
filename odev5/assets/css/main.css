@@ -194,11 +194,7 @@ hr {
 
 .partner-image {
   display: flex;
-  align-self: center;
-}
-
-.partner-image img {
-  padding-right: 70px;
+  justify-content: space-around;
 }
 
 /* Partner Area End */
