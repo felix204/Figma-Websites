@@ -79,8 +79,6 @@ h6 {
   isolation: isolate;
 }
 
-
-
 /* Buttons Start */
 
 .btn-blue {
@@ -227,6 +225,10 @@ h6 {
   line-height: 24px;
   color: white;
   padding-bottom: 41px;
+}
+
+.mobile-img {
+  display: none;
 }
 
 .hero-image img {

@@ -1,17 +1,46 @@
 .nav-button {
-    display: none;
+  display: none;
 }
 
 .hero-area {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .service-header {
-    text-align: center;
+  text-align: center;
 }
 
 .card-area {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-description h1 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 40px;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 11px;
+}
+
+.hero-description {
+  flex-basis: 94%;
+}
+
+.hero-description p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  color: white;
+  padding-bottom: 11px;
+}
+
+.mobile-img {
+  display: block;
+}
+
+.desktop-img {
+  display: none;
 }
