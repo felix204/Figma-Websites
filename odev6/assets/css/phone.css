@@ -44,3 +44,26 @@
 .desktop-img {
   display: none;
 }
+
+.card-area {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-area1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 80px;
+}
+
+.blog-area2 {
+  display: flex;
+  flex-wrap: wrap;
+}
