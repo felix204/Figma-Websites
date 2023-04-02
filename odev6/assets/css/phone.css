@@ -1,0 +1,17 @@
+.nav-button {
+    display: none;
+}
+
+.hero-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-header {
+    text-align: center;
+}
+
+.card-area {
+    display: flex;
+    flex-wrap: wrap;
+}
