@@ -11,6 +11,10 @@
   text-align: center;
 }
 
+.card {
+  width: 100%;
+}
+
 .card-area {
   display: flex;
   flex-wrap: wrap;
@@ -66,4 +70,18 @@
 .blog-area2 {
   display: flex;
   flex-wrap: wrap;
+}
+
+.head-area h2{
+  text-align: center;
+}
+
+.blog-area1 img{
+  transform: scale(1);
+  padding-bottom: 10px;
+}
+
+.blog-area2 img{
+  transform: scale(1.4);
+
 }
