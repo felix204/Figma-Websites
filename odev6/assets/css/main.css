@@ -1,83 +1,4 @@
-/*
-  1. Use a more-intuitive box-sizing model.
-*/
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-/*
-    2. Remove default margin
-  */
-* {
-  margin: 0;
-}
-/*
-    3. Allow percentage-based heights in the application
-  */
-html,
-body {
-  height: 100%;
-}
-/*
-    Typographic tweaks!
-    4. Add accessible line-height
-    5. Improve text rendering
-  */
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  font-family: "DM Sans", sans-serif;
-}
-/*
-    6. Improve media defaults
-  */
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-}
-/*
-    7. Remove built-in form typography styles
-  */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-/*
-    8. Avoid text overflows
-  */
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "DM Serif Display", serif;
-}
-
-/*
-    9. Create a root stacking context
-  */
-#root,
-#__next {
-  isolation: isolate;
-}
 
 /* Buttons Start */
 
@@ -97,6 +18,52 @@ h6 {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
+}
+
+.btn-transparent {
+  background-color: #434ccc00;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: 0.3s;
+  border-radius: 4px;
+  color: white;
+  padding: 12px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.btn-transparent-blue {
+  background-color: #ffffff00;
+  border: 1px solid #434ccc;
+  transition: 0.3s;
+  border-radius: 4px;
+  color: #434ccc;
+  padding: 12px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.btn-transparent-blue:hover {
+  background-color: #434ccc;
+  color: white;
+}
+
+.btn-transparent:hover {
+  background-color: white;
+  color: #f1b505;
 }
 
 .btn-blue:hover {
@@ -330,6 +297,10 @@ h6 {
 
 /* Blog Area Start */
 
+.mobile-blog-area2 {
+  display: none;
+}
+
 .blog-area {
   padding-bottom: 117px;
 }
@@ -367,6 +338,11 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: cetner;
+  padding-bottom: 160px;
+}
+
+.blog-area1 .description {
+  
 }
 
 .blog-area2 {
@@ -375,11 +351,26 @@ h6 {
   justify-content: center;
 }
 
+.blog-area2 .description {
+  flex-basis: 30%;
+}
+
+.blog-area1 .description {
+  flex-basis: 60%;
+}
+
+.blog-area2 .blog-img {
+  flex-basis: 47%;
+  justify-content: end;
+}
+
 .description h3 {
   font-size: 40px;
   font-weight: 400;
   line-height: 48px;
   padding-bottom: 37px;
+  text-align: start;
+
 }
 
 .description p {
@@ -398,8 +389,23 @@ h6 {
   color: black;
 }
 
-.blog-area1 img {
-  object-fit: none;
+
+
+.blog-img {
+  flex-basis: 70%;
+  display: flex;
+  justify-content: center;
 }
 
+
 /* Blog Area End */
+
+
+
+/* Document Area Start */
+
+.document-area {
+  display: none;
+}
+
+/* Document Area End */
