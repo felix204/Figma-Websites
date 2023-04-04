@@ -1,4 +1,9 @@
 @media screen and (max-width: 375px) {
+
+  .document-area {
+    display: block;
+  }
+  
   .nav-button {
     display: none;
   }
