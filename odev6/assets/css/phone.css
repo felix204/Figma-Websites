@@ -3,6 +3,10 @@
   .document-area {
     display: block;
   }
+
+  .document-area-desktop {
+    display: none;
+  }
   
   .nav-button {
     display: none;
@@ -250,6 +254,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .work-btn-area {
+    display: flex;
+    justify-content: center;
   }
 
   
