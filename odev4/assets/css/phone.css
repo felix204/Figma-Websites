@@ -1,0 +1,14 @@
+@media (max-width: 375px) {
+    .nav-content {
+        display: none;
+    }
+
+    .hero-area {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hero-content h1{
+
+    }
+  }
