@@ -65,7 +65,8 @@ h3,
 h4,
 h5,
 h6,
-span {
+span,
+a {
   overflow-wrap: break-word;
   color: white;
   font-family: 'Montserrat', sans-serif;
