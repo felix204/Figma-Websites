@@ -30,4 +30,23 @@
         font-size: 15px;
         line-height: 25px;
       }
+
+    .partner-description {
+        padding-top: 90px;
+    }
+
+    .partner-image {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }  
+
+    .custom-bundles {
+        padding-top: 150px;
+    }
+
+    .custom-bundles h2{
+        font-size: 35px;
+        line-height: 40px;
+    }
   }

@@ -145,11 +145,9 @@
   display: flex;
   align-self: center;
   opacity: 0.5;
+  gap: 90px;
 }
-
-.partner-image img {
-  padding-right: 70px;
-}
+ 
 
 /* Partner Area End */
 
