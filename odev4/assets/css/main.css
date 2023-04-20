@@ -83,9 +83,7 @@
 /* Hero Area Start */
 
 .hero-area {
-
   padding-top: 50px;
-
 }
 
 .hero-area .hero-content {
@@ -131,7 +129,7 @@
   padding: 180px 0;
 }
 
-.partner-description p{
+.partner-description p {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -147,7 +145,6 @@
   opacity: 0.5;
   gap: 90px;
 }
- 
 
 /* Partner Area End */
 
@@ -198,10 +195,10 @@
   color: white;
 }
 
-.integrations-desctiption p{
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
+.integrations-desctiption p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
 }
 
 .integrations-desctiption h2 {
@@ -235,3 +232,32 @@ line-height: 32px;
 }
 
 /* Integrations Area End */
+
+/* Analytics Area Start */
+
+.analytics-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.analytics-area span {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  padding-bottom: 16px;
+}
+
+.analytics-area h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.4000000059604645px;
+  padding-bottom: 48px;
+}
+
+.analytics-area img {
+  padding-bottom: 240px;
+}
+
+/* Analytics Area End */

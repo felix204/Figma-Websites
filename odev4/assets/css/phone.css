@@ -1,4 +1,4 @@
-@media (max-width: 375px) {
+@media (max-width: 400px) {
     .nav-content {
         display: none;
     }
@@ -88,4 +88,17 @@
         align-items: center;
         justify-content: center;
     }
+
+
+    /* Analytics Area Start */
+
+    .analytics-area {
+        padding-top: 290px;
+    }
+
+    .analytics-area h3 {
+        text-align: center;
+    }
+
+    /* Analytics Area End */
   }
