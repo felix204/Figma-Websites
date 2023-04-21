@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  height: 100vh;
+}
+
+.image-holder {
+  overflow: hidden;
+  position: relative;
+
+  height: 500px;
+  width: 300px;
+
+  background-color: red;
+  transition: all 200ms ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+    transition: all 3s ease;
+  }
+}

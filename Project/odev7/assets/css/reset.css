@@ -1,0 +1,115 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+    2. Remove default margin
+  */
+* {
+  margin: 0;
+}
+/*
+    3. Allow percentage-based heights in the application
+  */
+html,
+body {
+  height: 100%;
+}
+/*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+    6. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+    7. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+    8. Avoid text overflows
+  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  font-family: "Montserrat", sans-serif;
+}
+/*
+    9. Create a root stacking context
+  */
+#root,
+#__next {
+  isolation: isolate;
+}
+p {
+  overflow-wrap: break-word;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Buttons */
+
+.btn-primary {
+  width: 89px;
+  height: 32px;
+  background: #0d6efd;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  border-radius: 3px;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.4s;
+}
+
+.primary-start {
+  background: #0d6efd;
+  border-radius: 32px;
+  color: #ffffff;
+  display: inline-flex;
+  font-size: 23px;
+  padding: 16px 40px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.3s;
+  
+}
+
+/* Hovers */
+
+.primary-start:hover {
+  background: #3e8bfd;
+}
+
+.btn-primary:hover {
+    background: #3e8bfd;
+  }

@@ -1,0 +1,340 @@
+/*
+    Reset CSS
+*/
+
+html, body, div, span, applet, object, iframe,
+h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+}
+
+/* Custom Reset */
+
+h3 {
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 60px;
+}
+span {
+    color: #2711e7;
+    font-size: 60px;
+}
+
+p {
+    opacity: 0.5;
+}
+
+h5 {
+    font-size: 35px;
+}
+
+
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+/* Container */
+
+.container {
+    display: grid;
+    justify-content: center;
+}
+
+
+/* Buttons */
+
+.buy-button {
+    background-color: #2711e7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.learn-button {
+    background-color: #c7e711;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: black;
+    
+}
+
+/* Main Areas Start */
+
+.hero-container {
+    min-width: 100vh;
+    min-height: 100vh;
+    background-image: url("/assets/img/Hero-Area-Background.jpg");
+    background-size: cover;
+}
+
+.hero-area {
+    padding-top: 15vh;   
+    position: relative;
+}
+
+.hero-area h1{
+    display: grid;
+    justify-content: center;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+.container .hero-area span {
+    display: grid;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.hero-area .description {
+    position: absolute;
+    width: 100%;
+}
+
+/* Main Areas End */
+
+
+/* Mid Areas Start */
+
+
+.mid-container {
+    min-width: 100vh;
+    min-height: 100vh;
+    background-image: url("/assets/img/Mid-Area-Background.jpg");
+    background-size: cover;
+}
+
+.button-area {
+    display: grid;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+/* Mid Areas End */
+
+
+
+/* Last Area Start */ 
+
+.last-container{
+    min-width: 100vh;
+    min-height: 100vh;
+    background-image: url("/assets/img/last-Area-Background.jpg");
+    background-size: cover;
+}
+
+.container-last {
+    display: grid;
+    justify-content: start;
+    padding-top: 5vh;
+}
+
+.container-last .hero-area {
+    padding-left: 20vh;
+    padding-top: 20vh;
+    
+}
+
+.container-last .hero-area span {
+    padding-top: 25px;
+}
+
+.container-last .hero-area {
+    padding-top: 20vh;
+}
+
+.container-last .hero-area .button-area {
+    display: grid;
+    justify-content: start;
+    padding-top: 90px;
+}
+
+.container-last .hero-area .button-area {
+    display: flex;
+    justify-content: start;
+    text-decoration: none;
+
+}
+
+.container-last .hero-area .button-area .communation {
+    display: flex;
+    align-items: center;
+}
+
+.container-last .hero-area .button-area .communation a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+    padding-left: 5vh;
+}
+
+
+
+/* Last Area End */ 
+
+
+/* Table Area Start */
+
+
+
+.container .header {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 5vh;
+    padding-top: 10vh;
+}
+
+.container .table-description {
+    padding-bottom: 5vh;
+    text-align: center;
+}
+
+.table-content {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.table-content .description p {
+    text-align: center;
+}
+
+.table-content .table-area {
+    border-bottom: 1px solid #ddd;
+    padding: 3vh;
+}
+
+.table-content .table-area h4 {
+    text-align: left;
+}
+
+.table-area p {
+    text-align: left;
+    padding-top: 1vh;
+}
+
+.email {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.email a{
+    text-decoration: none;
+}
+
+
+/* Table Area End */
+
+/* Component Area Start */
+.container{
+    display: grid;
+    justify-content: center;
+}
+
+.container .header {
+    display: grid;
+    justify-content: start;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+
+.container .description p{
+    line-height: 25px;
+}
+
+.container .link {
+    padding-top: 6vh;
+    padding-bottom: 5vh;
+}
+
+/* Component Area End */
+
+
+
+/* Simplekits Area Start */
+
+.container .welcome{
+    color: #d9ff00;
+    font-size: 20px;
+    padding-bottom: 2vh;
+}
+
+.simplekit h4{
+    font-size: 40px;
+    padding-bottom: 1vh;
+    text
+}
+
+.simplekit h3{
+    opacity: 0.5;
+}
+
+.simplekit {
+    padding-bottom: 6vh;
+}
+
+.simplekit-description p{
+    padding-bottom: 2vh;
+}
+
+.last-button-area {
+    padding-top: 4vh;
+}
+
+.learn-button a{
+    color: black;
+}
+
+
+/* Simplekits Area End */
