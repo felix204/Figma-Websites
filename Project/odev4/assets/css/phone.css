@@ -4,7 +4,7 @@
     }
 
     .container {
-        width: 345px;
+        width: 357px;
     }
 
     .hero-area {
@@ -101,4 +101,17 @@
     }
 
     /* Analytics Area End */
+
+    .card-area{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 50px;
+    }
+
+    
+
+    /* Pricing Card Area Start */
+
+    /* Pricing Card Area End */
+
   }
