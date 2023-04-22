@@ -1,117 +1,109 @@
 @media (max-width: 400px) {
-    .nav-content {
-        display: none;
-    }
-
-    .container {
-        width: 357px;
-    }
-
-    .hero-area {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0;
-        padding-bottom: 100px;
-    }
-
-    .hero-content {
-        padding: 0;
-        margin: 0;
-    }
-
-    .hero-content h1{
-        font-size: 40px;
-        line-height: 40px;
-    }
-
-
-    .hero-content p {
-        padding-top: 16px;
-        color: white;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 25px;
-      }
-
-    .partner-description {
-        padding-top: 90px;
-    }
-
-    .partner-image {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }  
-
-    .custom-bundles {
-        padding-top: 182px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .custom-bundles h2 {
-        text-align: center;
-    }
-
-    .custom-bundles h2{
-        font-size: 35px;
-        line-height: 40px;
-    }
-
-    .integrations-desctiption h2 {
-        line-height: 38px;
-        font-size: 30px;
-        text-align: center;
-    }
-
-    .integrations-desctiption br{
-        display: none;
-    }
-
-    .integrations-desctiption p {
-        text-align: center;
-    }
-
-    .integrations-desctiption {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-
-    }
-
-    .integrations-area {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-    /* Analytics Area Start */
-
-    .analytics-area {
-        padding-top: 290px;
-    }
-
-    .analytics-area h3 {
-        text-align: center;
-    }
-
-    /* Analytics Area End */
-
-    .card-area{
-        display: grid;
-        grid-template-columns: auto;
-        gap: 50px;
-    }
-
-    
-
-    /* Pricing Card Area Start */
-
-    /* Pricing Card Area End */
-
+  .nav-content {
+    display: none;
   }
+
+  .container {
+    width: 357px;
+  }
+
+  .hero-area {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    padding-bottom: 100px;
+  }
+
+  .hero-content {
+    padding: 0;
+    margin: 0;
+  }
+
+  .hero-content h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .hero-content p {
+    padding-top: 16px;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .partner-description {
+    padding-top: 90px;
+  }
+
+  .partner-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .custom-bundles {
+    padding-top: 182px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .custom-bundles h2 {
+    text-align: center;
+  }
+
+  .custom-bundles h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .integrations-desctiption h2 {
+    line-height: 38px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .integrations-desctiption br {
+    display: none;
+  }
+
+  .integrations-desctiption p {
+    text-align: center;
+  }
+
+  .integrations-desctiption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .integrations-area {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Analytics Area Start */
+
+  .analytics-area {
+    padding-top: 290px;
+  }
+
+  .analytics-area h3 {
+    text-align: center;
+  }
+
+  /* Analytics Area End */
+
+  /* Pricing Card Area Start */
+  .card-area {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 50px;
+  }
+  /* Pricing Card Area End */
+}
