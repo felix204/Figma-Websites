@@ -131,6 +131,24 @@
 
 
   /* Footer Area Start */
-  
+
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    
+  }
+
+  .footer-col5 {
+    display: none;
+  }
+
+  .footer-social{
+    display: none;
+  }
+
+  .footer-copyrate {
+    display: flex;
+    justify-content: space-between;
+  }
   /* Footer Area End */
 }

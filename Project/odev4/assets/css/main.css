@@ -441,7 +441,7 @@ li p {
   height: 48px;
   background-color: #212121;
   color: white;
-  border-right: none;
+  border: none;
 }
 
 .footer-col5 :placeholder-shown {
@@ -470,5 +470,9 @@ li p {
   display: flex;
   justify-content: end;
   gap: 50px;
+}
+
+.btn-footer img {
+  margin-top: 5px;
 }
 /* Footer Area End */
