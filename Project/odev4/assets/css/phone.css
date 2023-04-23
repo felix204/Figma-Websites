@@ -96,8 +96,9 @@
   .analytics-area h3 {
     text-align: center;
   }
-
   /* Analytics Area End */
+
+
 
   /* Pricing Card Area Start */
   .card-area {
@@ -107,8 +108,9 @@
   }
   /* Pricing Card Area End */
 
-  /* Setup Area Start */
 
+
+  /* Setup Area Start */
   .setup-card {
     gap: 0;
   }
@@ -124,6 +126,11 @@
     letter-spacing: -0.4000000059604645px;
     padding-bottom: 24px;
   }
-
   /* Setup Area End */
+
+
+
+  /* Footer Area Start */
+  
+  /* Footer Area End */
 }

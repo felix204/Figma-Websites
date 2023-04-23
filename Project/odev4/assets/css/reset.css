@@ -71,6 +71,14 @@ a {
   color: white;
   font-family: 'Montserrat', sans-serif;
 }
+
+li a{
+  font-family: 'Open Sans', sans-serif;
+}
+
+li p {
+  font-family: 'Open Sans', sans-serif;
+}
 /*
     9. Create a root stacking context
   */
@@ -82,7 +90,7 @@ a {
 /* Buttons */
 
 .btn-warning {
-  background-color: #DC3545; /* Green */
+  background-color: #DC3545; /* Red */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -94,3 +102,19 @@ a {
   border-radius: 3px;
   width: 274px;
 }
+
+.btn-footer {
+  background-color: #0D6EFD; /* Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+  width: 80px;
+  height: 48px;
+}
+
+

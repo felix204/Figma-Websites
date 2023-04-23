@@ -1,5 +1,4 @@
 /* Dropdown Start */
-
 .dropdown a {
   text-decoration: none;
   display: block;
@@ -50,9 +49,9 @@
 .dropdown-list a {
   color: black;
 }
-
 /* Dropdown End */
 
+/* Container Start */
 .container {
   margin: 0 auto;
   width: 1110px;
@@ -61,9 +60,9 @@
 .card-container {
   width: 274px;
 }
+/* Container End */
 
 /* Nav Area Start */
-
 .nav-content {
   display: flex;
 }
@@ -81,11 +80,9 @@
   justify-content: space-between;
   padding: 34px 0;
 }
-
 /* Nav Area End */
 
 /* Hero Area Start */
-
 .hero-area {
   padding-top: 50px;
 }
@@ -120,11 +117,9 @@
 .hero-content {
   flex-basis: 50%;
 }
-
 /* Hero Area End */
 
 /* Partner Area Start */
-
 .partner-area {
   height: 167px;
   display: flex;
@@ -149,11 +144,9 @@
   opacity: 0.5;
   gap: 90px;
 }
-
 /* Partner Area End */
 
 /* Custom Bundles Area Start */
-
 .custom-bundles {
   height: 819px;
 }
@@ -174,11 +167,9 @@
   letter-spacing: -0.4000000059604645px;
   padding: 50px 0;
 }
-
 /* Custom Bundles Area End */
 
 /* Integrations Area Start */
-
 .integrations-area {
   display: flex;
   align-items: center;
@@ -234,11 +225,9 @@
   text-decoration: none;
   color: white;
 }
-
 /* Integrations Area End */
 
 /* Analytics Area Start */
-
 .analytics-area {
   display: flex;
   flex-direction: column;
@@ -263,11 +252,9 @@
 .analytics-area img {
   padding-bottom: 240px;
 }
-
 /* Analytics Area End */
 
 /* Pricing Card Area Start */
-
 .header-area {
   display: grid;
   justify-content: center;
@@ -338,11 +325,9 @@
   line-height: 70px;
   letter-spacing: -0.699999988079071px;
 }
-
 /* Pricing Card Area End */
 
 /* Question Area Start */
-
 .question-area {
   padding-bottom: 160px;
 }
@@ -379,11 +364,9 @@
   font-weight: 700;
   line-height: 28px;
 }
-
 /* Question Area End */
 
 /* Setup Area Start  */
-
 .setup-card {
   display: grid;
   grid-template-columns: auto auto;
@@ -410,8 +393,82 @@
   font-size: 23px;
   font-weight: 600;
   line-height: 32px;
-
 }
 /* Setup Area End  */
 
-/* Footer Area Stat */ 
+/* Footer Area Stat */
+.footer {
+  background-color: #121212;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(4, 1.5fr) 3.5fr;
+  padding: 72px 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #807e7e;
+}
+
+.footer-links li {
+  list-style-type: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 10px;
+}
+
+li p {
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.footer-col5 {
+  display: grid;
+  justify-content: end;
+}
+
+.footer-col5 p {
+  text-align: end;
+}
+
+.footer-col5 input {
+  width: 280px;
+  height: 48px;
+  background-color: #212121;
+  color: white;
+  border-right: none;
+}
+
+.footer-col5 :placeholder-shown {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer-input {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.footer-copyrate {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 27px 0;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: end;
+  gap: 50px;
+}
+/* Footer Area End */
