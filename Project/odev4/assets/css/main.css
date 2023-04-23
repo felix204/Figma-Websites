@@ -294,6 +294,7 @@
 .card-area {
   display: grid;
   grid-template-columns: auto auto auto;
+  padding-bottom: 240px;
 }
 
 .card {
@@ -340,33 +341,24 @@
 
 /* Pricing Card Area End */
 
-
-
 /* Question Area Start */
 
 .question-area {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 160px;
 }
 
 .question-area h5 {
   padding-bottom: 32px;
-  font-family: "Montserrat", sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 48px;
-  letter-spacing: 0px;
-  text-align: left;
 }
 
 .question-table h6 {
   padding: 24px 0;
-  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 28px;
-  letter-spacing: 0px;
-  text-align: left;
 }
 .question-table p {
   padding: 24px 0;
@@ -377,8 +369,6 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
-  letter-spacing: 0px;
-  text-align: left;
 }
 
 .content-question-table h6 {
@@ -388,8 +378,40 @@
   font-size: 20px;
   font-weight: 700;
   line-height: 28px;
-  letter-spacing: 0px;
-  text-align: left;
 }
 
 /* Question Area End */
+
+/* Setup Area Start  */
+
+.setup-card {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 318px;
+  background-color: #121212;
+  border: 0.1px solid #121212;
+  border-radius: 12px;
+  margin-bottom: 120px;
+  gap: 280px;
+}
+
+.card-description h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.4000000059604645px;
+  padding-bottom: 24px;
+}
+
+.card-description a {
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 32px;
+
+}
+/* Setup Area End  */
+
+/* Footer Area Stat */ 

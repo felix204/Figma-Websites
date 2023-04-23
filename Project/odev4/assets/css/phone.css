@@ -106,4 +106,24 @@
     gap: 50px;
   }
   /* Pricing Card Area End */
+
+  /* Setup Area Start */
+
+  .setup-card {
+    gap: 0;
+  }
+
+  .setup-card img {
+    display: none;
+  }
+
+  .card-description h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.4000000059604645px;
+    padding-bottom: 24px;
+  }
+
+  /* Setup Area End */
 }
