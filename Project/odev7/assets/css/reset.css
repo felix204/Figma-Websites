@@ -67,9 +67,22 @@ h6 {
 #__next {
   isolation: isolate;
 }
-p {
+p,
+a {
   overflow-wrap: break-word;
   font-family: "Open Sans", sans-serif;
+}
+
+/* Container */
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.nav-container {
+  width: 1250px;
+  margin: 0 auto;
 }
 
 /* Buttons */
@@ -113,3 +126,4 @@ p {
 .btn-primary:hover {
     background: #3e8bfd;
   }
+
