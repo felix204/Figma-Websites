@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>To-Do List</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <title>Document</title>
 </head>
 <body>
     <div class="container">
@@ -14,13 +17,16 @@
         <div>
             <input type="text" id="inputText">
             <input type="submit" id="addToDo" value="Add">
-            <input type="submit" id="clearToDo" value="Clear">
+            <input type="submit" id="clearToDo" value="All Clear">
         </div>
-        <div class="to-Dos" id="toDoContainer">
 
-        </div>
+        <ul class="to-Dos" id="toDoContainer">
+
+        </ul>
+
     </div>
 
-    <script src="script.js"></script>
+    <script src="main.js"></script>
 </body>
+
 </html>
