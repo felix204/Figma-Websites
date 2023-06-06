@@ -1,0 +1,63 @@
+form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+input,
+button {
+  background-color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  padding: 15px 40px;
+}
+
+input {
+  font-weight: bold;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+
+.box-container {
+    width: 300px;
+    margin: 10px;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.box-container img {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.box-container h4 {
+    font-size: 1.4rem;
+    margin: 5px 0;
+}
+
+.box-container p{
+    margin: 5px auto;
+}
