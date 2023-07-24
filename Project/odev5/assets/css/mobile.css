@@ -2,30 +2,25 @@
   .navigation {
     display: none;
   }
-
   #navigation {
     display: flex;
     justify-content: start;
     gap: 14rem;
     padding-left: 10px;
   }
-
   .hero-area {
     display: flex;
     flex-direction: column;
   }
-
   .hero-area .image-area {
     padding-top: 70px;
     max-width: 40%;
   }
-
   .description {
     display: flex;
     flex-direction: column;
     align-items: start;
   }
-
   .description h1 {
     font-size: 54px;
     padding-right: 650px;
@@ -43,17 +38,14 @@
   .content-area .button-area {
     padding-left: 98px;
   }
-  
   .partner-area {
     padding-bottom: 200px;
     padding-top: 200px;
   }
-
   .partner-description {
     padding-left: 130px;
     padding-bottom: 40px;
   }
-
   .partner-image {
     display: flex;
     flex-direction: column;
@@ -62,5 +54,30 @@
   }
   .partner-image img {
     max-width: 17%;
+  }
+  .card-area-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-area-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .card img {
+    max-width: 38%;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    padding-left: 6px;
+    padding-bottom: 0;
+  }
+  .card-description {
+    text-align: center;
+    padding-right: 650px;
+  }
+  .card-price {
+    padding-left: 120px;
+    padding-bottom: 20px;
   }
 }
