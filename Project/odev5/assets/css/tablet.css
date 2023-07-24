@@ -1,140 +1,144 @@
-.container {
-    margin: 0 auto;
-    width: 1024px;
-}
 
-/* Navigation Area Start */
-
-#navigation {
-    display: flex;
-    justify-content: space-around;
-}
-
-/* Navigation Area End */
-
-
-/* Hero Area Start */
-
-.description h1 {
-    padding-left: 25px;
+@media only screen and (max-width : 1024px) {
+    .container {
+        margin: 0 auto;
+        width: 1024px;
+    }
     
-}
-
-.description p {
-    padding-left: 25px;
-}
-
-.price-area {
-    display: flex;
-    justify-content: center;
-}
-
-.content-area .button-area{
-    padding-left: 120px;
-}
-
-/* Hero Area End */
-
-
-
-/* Partner Area Start */
-
-.partner-description {
-    padding-left: 20px;
-    padding-bottom: 10px;
-}
-
-.partner-image {
-    padding-left: 20px;
-}
-
-/* Partner Area End */
-
-
-
-/* Custom Bundles Area Start */
-
-.bundle-header img {
-    position: absolute;
-    bottom: 70px;
-    left: 680px;
+    /* Navigation Area Start */
+    
+    #navigation {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    /* Navigation Area End */
+    
+    
+    /* Hero Area Start */
+    
+    .description h1 {
+        padding-left: 25px;
+        
+    }
+    
+    .description p {
+        padding-left: 25px;
+    }
+    
+    .price-area {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .content-area .button-area{
+        padding-left: 120px;
+    }
+    
+    /* Hero Area End */
+    
+    
+    
+    /* Partner Area Start */
+    
+    .partner-description {
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .partner-image {
+        padding-left: 20px;
+    }
+    
+    /* Partner Area End */
+    
+    
+    
+    /* Custom Bundles Area Start */
+    
+    .bundle-header img {
+        position: absolute;
+        bottom: 70px;
+        left: 680px;
+      }
+    
+    .bundle-header {
+        display: flex;
+        justify-content: center;
+    } 
+    
+    .bundle-header h3 {
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .bundle-image {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    /* Custom Bundles Area End */
+    
+    
+    
+    /* Articles Area Start */
+    
+    .header-area {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    /* Articles Area End */
+    
+    
+    
+    /* Question Area Start */
+    
+    .question-area {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .question-area h5 {
+        text-align: center;
+    } 
+    
+    .question-area h6 {
+        text-align: center;
+    }
+    
+    .question-area p{
+        text-align: center;
+    }
+    
+    /* Question Area End */
+    
+    
+    
+    /* Image Area Start */
+    
+    .call-to-action img{
+        width: 1000px;
+        height: auto;
+    }
+    
+    /* Image Area End */
+    
+    
+    
+    /* Footer Arae Start */
+    
+    .footer-area-up {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .footer-area-down {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    /* Footer Arae End */
   }
 
-.bundle-header {
-    display: flex;
-    justify-content: center;
-} 
-
-.bundle-header h3 {
-    text-align: center;
-    justify-content: center;
-}
-
-.bundle-image {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-/* Custom Bundles Area End */
-
-
-
-/* Articles Area Start */
-
-.header-area {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-/* Articles Area End */
-
-
-
-/* Question Area Start */
-
-.question-area {
-    display: flex;
-    flex-direction: column;
-}
-
-.question-area h5 {
-    text-align: center;
-} 
-
-.question-area h6 {
-    text-align: center;
-}
-
-.question-area p{
-    text-align: center;
-}
-
-/* Question Area End */
-
-
-
-/* Image Area Start */
-
-.call-to-action img{
-    width: 1000px;
-    height: auto;
-}
-
-/* Image Area End */
-
-
-
-/* Footer Arae Start */
-
-.footer-area-up {
-    display: flex;
-    justify-content: space-around;
-}
-
-.footer-area-down {
-    display: flex;
-    justify-content: space-around;
-}
-
-/* Footer Arae End */

@@ -1,0 +1,46 @@
+@media (max-width: 400px) {
+  .navigation {
+    display: none;
+  }
+
+  #navigation {
+    display: flex;
+    justify-content: start;
+    gap: 14rem;
+    padding-left: 10px;
+  }
+
+  .hero-area {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-area .image-area {
+    padding-top: 70px;
+    max-width: 40%;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .description h1 {
+    font-size: 54px;
+    padding-right: 650px;
+    text-align: center;
+  }
+  .description p {
+    font-size: 18px;
+    text-align: center;
+    padding-left: 12px;
+  }
+  .price-area {
+    justify-content: start;
+    margin-left: 80px;
+  }
+  .content-area .button-area {
+    padding-left: 98px;
+  }
+}
