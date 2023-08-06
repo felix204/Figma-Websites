@@ -1,0 +1,100 @@
+@media only screen and (max-width: 400px) {
+  .nav-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .avatar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .avatar img {
+    border-radius: 17px;
+  }
+  .avatar p {
+    font-size: 13px;
+  }
+  .nav-area .links {
+    display: none;
+  }
+  .hero-area {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.293), rgba(0, 0, 0, 0.19)),
+      url("../img/Hero-Image.png");
+    height: 87%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 180px;
+    align-items: center;
+  }
+  .vote-area {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding: 100px 0;
+    align-items: end;
+  }
+  .vote a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .recipes-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+  .recipes-line1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card img {
+    width: 130px;
+    border-radius: 5px;
+  }
+  .card p {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 20px;
+    width: 90%;
+  }
+  .recipes-head {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 35px;
+  }
+  .communication-area {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.086), rgba(0, 0, 0, 0.19)),
+      url("../img/communication-iamge.png");
+    height: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .communication-area h5 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+}
