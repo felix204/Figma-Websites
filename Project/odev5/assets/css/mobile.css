@@ -1,24 +1,28 @@
 @media (max-width: 400px) {
+  .container {
+    width: 375px;
+  }
+
   .navigation {
     display: none;
   }
+
   #navigation {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     gap: 14rem;
     padding-left: 10px;
   }
   .hero-area {
     display: flex;
     flex-direction: column;
+
   }
   .hero-area .image-area {
     padding-top: 70px;
-    max-width: 35%;
+    
   }
-  .image-area img {
-    padding-left: 50px;
-  }
+  
   .description {
     display: flex;
     flex-direction: column;
@@ -26,8 +30,8 @@
   }
   .description h1 {
     font-size: 54px;
-    padding-right: 650px;
-    text-align: center;
+    text-align: start;
+
   }
   .description p {
     font-size: 18px;
@@ -42,42 +46,38 @@
     padding-left: 98px;
   }
   .partner-area {
-    padding-bottom: 200px;
+    align-items: center;
     padding-top: 200px;
+    padding-bottom: 200px;
   }
-  .partner-description {
-    padding-left: 130px;
-    padding-bottom: 40px;
-  }
+  
   .partner-image {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding-left: 140px;
+    
   }
   .partner-image img {
-    max-width: 17%;
+    width: 200px;
   }
   .card-area-1 {
     display: flex;
     flex-direction: column;
+    justify-content: start;
   }
   .card-area-2 {
     display: flex;
     flex-direction: column;
   }
-  .card img {
-    max-width: 37%;
-  }
+ 
+  
   .card {
     display: flex;
     flex-direction: column;
-    padding-left: 10px;
-    padding-bottom: 0;
   }
   .card-description {
     text-align: center;
-    padding-right: 650px;
+
   }
   .card-price {
     padding-left: 120px;
@@ -88,8 +88,8 @@
   }
   .bundle-header h3 {
     text-align: center;
-    font-size: 24px;
-    padding-left: 5px;
+    font-size: 21px;
+    padding-left: 25px;
   }
   .bundle-header img {
     display: none;
@@ -98,9 +98,7 @@
     flex-direction: column;
     justify-content: start;
   }
-  .bundle-image {
-    max-width: 40%;
-  }
+  
   .header-area {
     justify-content: start;
     gap: 135px;
@@ -109,14 +107,12 @@
   .articles-image {
     flex-direction: column;
   }
-  .article-card {
-    padding-left: 24px;
+  .articles-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  .question-area {
-    align-items: start;
-    padding-left: 34px;
-  }
-  .question-area h5{
+  .question-area h5 {
     font-size: 23px;
   }
   .question-area h6 {
@@ -125,16 +121,15 @@
   .content-question-table {
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
   }
   .content-question-table p {
     text-align: center;
-    max-width: 30%;
+    
   }
   .footer {
     display: flex;
-
   }
   .footer-area-up {
     display: flex;
