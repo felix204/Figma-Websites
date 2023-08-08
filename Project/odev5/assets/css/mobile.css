@@ -1,8 +1,9 @@
 @media (max-width: 400px) {
+  /* Container */
   .container {
     width: 375px;
   }
-
+  /* Navigation Area Start */
   .navigation {
     display: none;
   }
@@ -13,9 +14,14 @@
     gap: 14rem;
     padding-left: 10px;
   }
+
+  /* Navigation Area End */
+
+  /* Hero Area Start */
   .hero-area {
     display: flex;
     flex-direction: column;
+    padding-top: 40px;
 
   }
   .hero-area .image-area {
@@ -29,14 +35,14 @@
     align-items: start;
   }
   .description h1 {
-    font-size: 54px;
+    font-size: 51px;
     text-align: start;
 
   }
   .description p {
     font-size: 18px;
     text-align: center;
-    padding-left: 12px;
+    padding-left: 1px;
   }
   .price-area {
     justify-content: start;
@@ -45,6 +51,11 @@
   .content-area .button-area {
     padding-left: 98px;
   }
+
+  /* Hero Area End */
+
+  /* Partner Area Start */
+
   .partner-area {
     align-items: center;
     padding-top: 200px;
@@ -60,6 +71,10 @@
   .partner-image img {
     width: 200px;
   }
+
+  /* Partner Area End */
+
+  /* Product Area Start */
   .card-area-1 {
     display: flex;
     flex-direction: column;
@@ -83,6 +98,10 @@
     padding-left: 120px;
     padding-bottom: 20px;
   }
+
+  /* Product Area End */
+
+  /* Custom Bundles Area Start */
   .bundle-header {
     justify-content: start;
   }
@@ -94,10 +113,14 @@
   .bundle-header img {
     display: none;
   }
-  .bundle-image {
+  .bundle-image a{
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
   }
+
+  /* Custom Bundles Area End */
+
+  /* Article Area Start */
   
   .header-area {
     justify-content: start;
@@ -111,6 +134,11 @@
     flex-direction: column;
     align-items: center;
   }
+
+  /* Article Area End */
+
+  /* Question Area Start */
+
   .question-area h5 {
     font-size: 23px;
   }
@@ -127,6 +155,11 @@
     text-align: center;
     
   }
+
+  /* Question Area End */
+
+  /* Footer Area Start */
+
   .footer {
     padding-top: 30px;
   }
@@ -144,4 +177,6 @@
   .footer-icon {
     gap: 35px;
   }
+
+  /* Footer Area End */
 }
