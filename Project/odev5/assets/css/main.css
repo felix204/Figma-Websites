@@ -384,6 +384,12 @@
   padding-bottom: 44px;
 }
 
+.links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 .links li{
   list-style-type: none;
 }

@@ -129,37 +129,20 @@
     
   }
   .footer {
+    padding-top: 30px;
+  }
+
+  .links ul{
     display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
   .footer-area-up {
     display: flex;
-    flex-direction: column;
-    padding-left: 150px;
-
     align-items: start;
+    padding-bottom: 40px;
   }
-
-  .footer-area-up .logo {
-    justify-content: start;
-  }
-
-  .links ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-  }
-
-  .footer-area-down {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 80px;
-  }
-
   .footer-icon {
-    display: flex;
-    flex-direction: column;
-  }
-  .footer-icon img {
-    max-width: 30%;
+    gap: 35px;
   }
 }
