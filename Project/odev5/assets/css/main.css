@@ -352,8 +352,9 @@
 .footer-area-up {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding-bottom: 150px;
+  align-items: start;
+  padding-bottom: 70px;
+  padding-top: 30px;
 }
 
 .links ul {

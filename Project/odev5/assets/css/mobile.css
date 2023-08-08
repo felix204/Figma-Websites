@@ -102,7 +102,6 @@
   .header-area {
     justify-content: start;
     gap: 135px;
-    padding-left: 25px;
   }
   .articles-image {
     flex-direction: column;
