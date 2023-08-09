@@ -9,9 +9,15 @@
   padding: 21px 0;
 }
 
-.nav-area .links ul {
+.nav-links ul {
   display: flex;
   gap: 50px;
+  font-weight: 600;
+}
+
+.nav-links ul a {
+  color: black;
+  text-decoration: none;
 }
 .avatar {
   display: flex;
@@ -62,7 +68,12 @@
 
 .recipes-head span {
   color: black;
-  font-size: 00px;
+  font-size: 30px;
+}
+
+.recipes-head {
+  display: flex;
+  justify-content: center;
 }
 
 .recipes-area {
@@ -139,24 +150,81 @@
   justify-content: space-around;
   padding-top: 70px;
   gap: 40px;
+  padding-bottom: 90px;
 }
 
-.container span {
-  color: black;
-  font-size: 12px;
+.img-area {
+  padding-bottom: 30px;
 }
 
-.collection-header123 {
+.collection-header {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 200px;
 }
 
-.collection-header123 span {
-    font-size: 30px;
+.collection-header span {
+  font-size: 30px;
+  color: black;
 }
 
 .collection-card span {
-    font-size: 25px;
+  font-size: 25px;
+  color: black;
+}
+
+.footer-area-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.links ul {
+  display: flex;
+  text-decoration: none;
+  gap: 56px;
+}
+
+.links a {
+  text-decoration: none;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #212121;
+}
+
+.footer-area-down {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icon {
+  display: flex;
+  gap: 62px;
+  padding-bottom: 44px;
+}
+
+.links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.links li {
+  list-style-type: none;
+}
+
+.copirate-area p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  opacity: 0.5;
 }
