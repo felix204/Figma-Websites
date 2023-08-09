@@ -99,10 +99,7 @@ li p {
 #__next {
   isolation: isolate;
 }
-.container {
-  width: 1110px;
-  margin: auto 0;
-}
+
 
 /* Buttons */
 
