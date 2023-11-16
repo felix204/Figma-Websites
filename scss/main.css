@@ -16,4 +16,15 @@ body {
 }
 .image-holder:hover {
   transform: scale(1.1);
-}/*# sourceMappingURL=main.css.map */
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  color: black;
+}
+
+/*# sourceMappingURL=main.css.map */
