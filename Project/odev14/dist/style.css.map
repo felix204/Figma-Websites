@@ -1,1 +1,1 @@
-{"version":3,"sources":["../style.sass","../_veriables.sass"],"names":[],"mappings":"AAEA,KACI,qBCHM,CDIN,mCCHS","file":"style.css"}
+{"version":3,"sources":["../_reset.sass","../style.sass","../_veriables.sass"],"names":[],"mappings":"AAAA,KACI,eAAA,CACA,kCAAA,CACA,QAAA,CACA,SAAA,CAGJ,WACI,aAAA,CACA,YAAA,CAEJ,6BACI,aAAA,CACA,cAAA,CAEJ,6BACI,YAAA,CAEJ,EACI,kCAAA,CACA,UAAA,CACA,wBAAA,CAEJ,yBACI,wBAAA,CACA,UAAA,CACA,mCAAA,CAEJ,OAEI,kCAAA,CAEJ,cACI,iBAAA,CC7BJ,gBACI,wBCJK","file":"style.css"}
