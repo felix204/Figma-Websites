@@ -1,1 +1,48 @@
-@forward 'globals';
+@import 'globals/index';
+@import 'layouts/index';
+@import 'components/index';
+
+
+.hero-area {
+    display: flex;
+    padding-top: 103px;
+    padding-bottom: 136px;
+}
+
+.content-area {
+    width: 50%;
+    padding-right: 40px;
+}
+
+.content-area h1 {
+    color: $text-color;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    padding-bottom: 30px;
+}
+
+.content-area p {
+    padding-bottom: 18px;
+    color: $text-color;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+
+.content-area .link {
+    display: flex;
+    
+}
+
+.link a {
+    color: $text-color;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    padding-right: 5px;
+}

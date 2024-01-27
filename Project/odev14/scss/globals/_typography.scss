@@ -1,18 +1,30 @@
-h1,
-h2 {
-  font-weight: 700;
-  line-height: 1.1;
-  margin-top: 0;
+@import '../util/index';
+
+img, picture, video, canvas, svg {
+	display: block;
+	max-width: 100%;
 }
 
-p {
-  margin-top: 0;
+input, button, textarea, select {
+	font: inherit;
 }
 
 a,
 a:visited,
 a:active {
   text-decoration: none;
+ 
 }
 
+html {
+	font-family: $open-sans;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	overflow-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $montserrat;
+}
 
