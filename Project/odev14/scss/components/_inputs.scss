@@ -20,37 +20,30 @@
     &::placeholder {
         color: transparent;
     }
+}
 
-    &:placeholder-shown~.form-label {
-        font-size: 1rem;
-        cursor: text;
-        top: 20px;
-    }
+form {
+    position: relative;
 }
 
 .form-label {
+    pointer-events: none;
     position: absolute;
-    top: 0;
-    left: 830px;
+    padding-bottom: 0;
+    left: 0;
+    bottom: 10px;
     display: block;
     transition: 0.2s;
-    font-size: 10px;
+    font-size: 1rem;
     color: $gray;
 }
 
 .form-field:focus {
     ~.form-label {
-        position: absolute;
-        top: 0;
-        left: 815px;
-        display: block;
-        transition: 0.2s;
-        font-size: 1rem;
-        color: $primary;
-        font-weight: 400;
+        bottom: 30px;
+        font-size: .5rem;
     }
 
-    padding-bottom: 6px;
     font-weight: 700;
     border-width: 3px;
     border-image: linear-gradient(to right, $primary, $secondary);

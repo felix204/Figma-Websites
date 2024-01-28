@@ -11,6 +11,6 @@ body {
 }
 /* Container */
 .container {
-	width: 1000px;
+	width: min(calc(100% - 4rem), 1000px);
 	margin: 0 auto;
 }

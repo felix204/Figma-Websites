@@ -1,18 +1,22 @@
 .nav-area {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 103px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
 }
 
 .icons {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 2rem;
     padding: 25px 0;
-}
-
-.icons a {
-    padding-left: 32px;
 }
 
 .search-area {

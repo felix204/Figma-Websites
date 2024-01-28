@@ -1,0 +1,31 @@
+.hero {
+    padding-top: 203px;
+    padding-bottom: 136px;
+    background-color: $hero-bg;
+
+    &__container {
+        display: flex;
+    }
+
+    &__content {
+        width: 50%;
+        padding-right: 40px;
+    }
+
+    &__title {
+        color: $text-color;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: -0.4px;
+        padding-bottom: 30px;
+    }
+
+    &__description {
+        padding-bottom: 18px;
+        color: $text-color;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+}
