@@ -35,7 +35,7 @@
 
 .content-area .link {
     display: flex;
-    
+
 }
 
 .link a {
@@ -46,3 +46,24 @@
     line-height: 32px;
     padding-right: 5px;
 }
+
+/* Partner Area Start */
+
+.partner-description p {
+    color: $partner;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 50px;
+}
+
+.partner-images {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56px;
+    padding-bottom: 120px;
+}
+
+/* Partner Area End */
