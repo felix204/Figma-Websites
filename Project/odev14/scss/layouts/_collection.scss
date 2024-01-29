@@ -1,0 +1,41 @@
+.collection {
+    display: flex;
+    padding-bottom: 138px;
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: $whiteprod;
+        border-radius: 6px 0px 0px 6px;
+        max-width: 40%;
+        padding: 0 64px;
+    }
+
+    &__product {
+        background-color: $product;
+        border-radius: 0px 6px 6px 0px;
+    }
+
+    &__header {
+        color: $text-color;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 37px;
+        letter-spacing: -0.35px;
+        padding-bottom: 8px;
+    }
+
+    &__header-description {
+        color: $text-color;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        padding-bottom: 40px;
+    }
+}
