@@ -1,0 +1,33 @@
+.big-prod {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 100px;
+
+    &__armchair {
+        background-color: $blueprod;
+        border-radius: 8px;
+        max-width: 55%;
+    }
+
+    &__img {
+        padding-bottom: 37px;
+    }
+
+    &__desklamb {
+        background-color: $whiteprod;
+        border-radius: 8px;
+    }
+
+    &__description {
+        color: $text-color;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: left;
+        padding: 40px;
+        max-width: 62%;
+    }
+
+
+
+}
