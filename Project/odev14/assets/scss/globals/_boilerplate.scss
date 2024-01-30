@@ -1,0 +1,16 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+}
+
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+/* Container */
+.container {
+	width: min(calc(100% - 4rem), 1000px);
+	margin: 0 auto;
+}

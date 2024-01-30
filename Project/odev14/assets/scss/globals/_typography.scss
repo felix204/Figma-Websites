@@ -1,0 +1,70 @@
+
+
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+a,
+a:visited,
+a:active {
+	text-decoration: none;
+
+}
+
+html {
+	font-family: $open-sans;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $montserrat;
+}
+
+span {
+	font-family: $montserrat;
+}
+
+hr {
+	border: 1px solid rgba(192, 192, 192, 0.233);
+}
+
+
+.section-title {
+	color: $text-color;
+
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 30px;
+
+	padding-bottom: 1rem;
+
+	border-bottom: 1px solid rgba(192, 192, 192, 0.233);
+
+}
