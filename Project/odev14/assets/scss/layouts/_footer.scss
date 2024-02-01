@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+
+    &__description {
+        max-width: 50%;
+    }
+
+    &__colmns {
+        display: flex;
+        gap: 2rem;
+        
+    }
+
+    &__column {
+        display: flex;
+        flex-direction: column;
+    }
+}

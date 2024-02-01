@@ -18,7 +18,7 @@ a,
 a:visited,
 a:active {
 	text-decoration: none;
-
+	color: $text-color;
 }
 
 html {
@@ -52,6 +52,8 @@ span {
 
 .section-title {
 	color: $text-color;
+
+	width: 100%;
 
 	font-size: 20px;
 	font-weight: 600;
