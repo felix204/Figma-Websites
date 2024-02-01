@@ -5,8 +5,8 @@
 
     &__armchair {
         background-color: $blueprod;
-        border-radius: 8px;
         max-width: 55%;
+        border-radius: 8px;
     }
 
     &__img {
@@ -19,12 +19,13 @@
     }
 
     &__description {
-        color: $text-color;
         font-size: 20px;
         font-weight: 600;
         line-height: 30px;
         text-align: left;
         padding: 40px;
+        color: $text-color;
+        
         max-width: 62%;
     }
 

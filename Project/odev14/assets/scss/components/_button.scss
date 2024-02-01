@@ -1,9 +1,26 @@
 .link {
     display: flex;
     gap: 4px;
+
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 32px;
+
+    color: $text-color;
+}
+
+.second-link {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 80px;
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+
+    text-align: left;
+
     color: $text-color;
 }

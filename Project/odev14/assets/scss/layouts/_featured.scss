@@ -1,29 +1,32 @@
 .featured-product {
     display: flex;
     gap: 80px;
+
     padding-bottom: 128px;
-    padding-top: 24px;
+    padding-top: 2rem;
 
     &__type {
         color: var(--black-500-gray, #807E7E);
         font-feature-settings: 'clig' off, 'liga' off;
-        padding-bottom: 4px;
-        padding-top: 12px;
         font-family: "Open Sans";
         font-size: 12px;
         font-style: normal;
         font-weight: 400;
         line-height: 21px;
 
+        padding-bottom: 4px;
+        padding-top: 12px;
+
     }
 
     &__name {
         color: $text-color;
         font-feature-settings: 'clig' off, 'liga' off;
-        padding-bottom: 8px;
         font-size: 16px;
         font-weight: 400;
         line-height: 28px;
+
+        padding-bottom: 8px;
     }
 
     &__price {
@@ -36,10 +39,3 @@
     }
 }
 
-.header {
-    padding-bottom: 16px;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-}

@@ -1,0 +1,37 @@
+.latest-artices {
+
+    padding-bottom: 120px;
+
+    &__card {
+        color: $text-color;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__wrapper {
+        display: flex;
+        gap: 2rem;
+    }
+
+    &__type {
+        text-align: left;
+
+        color: $partner;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 21px;
+
+        padding-top: 10px;
+    }
+
+    &__title {
+        text-align: left;
+
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+}
