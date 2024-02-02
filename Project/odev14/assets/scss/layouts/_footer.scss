@@ -1,19 +1,68 @@
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 100px 0;
+
+    &__desc {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+
+        text-align: left;
+
+        color: $partner;
+    }
 
     &__description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
         max-width: 50%;
+
+    }
+
+    &__header {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+
+        text-align: left;
     }
 
     &__colmns {
         display: flex;
-        gap: 2rem;
-        
+        justify-content: center;
+        gap: 3rem;
+
     }
 
     &__column {
         display: flex;
         flex-direction: column;
+        gap: 0.7rem;
+    }
+
+    &__link {
+        color: $partner;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
     }
 }
+
+.communication {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 30px 0;
+
+    &__social {
+        display: flex;
+        gap: 3rem;
+    }
+}
+
+
+
+

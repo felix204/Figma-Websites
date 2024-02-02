@@ -18,7 +18,6 @@ a,
 a:visited,
 a:active {
 	text-decoration: none;
-	color: $text-color;
 }
 
 html {
@@ -35,6 +34,7 @@ h6 {
 	overflow-wrap: break-word;
 }
 
+
 h1,
 h2,
 h3,
@@ -48,7 +48,11 @@ span {
 	font-family: $montserrat;
 }
 
-/* Custom Header */
+
+hr {
+	border-bottom: 1px solid rgba(158, 154, 154, 0.233);
+}
+
 
 .section-title {
 	color: $text-color;
