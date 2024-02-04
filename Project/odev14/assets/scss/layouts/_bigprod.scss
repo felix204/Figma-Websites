@@ -7,6 +7,12 @@
         background-color: $blueprod;
         max-width: 55%;
         border-radius: 8px;
+        transition: transform .2s;
+    }
+
+    &__armchair:hover {
+        transform: scale(1.1);
+        filter: drop-shadow(rgba(0, 0, 0, 0.342) 1px 1px 8px);
     }
 
     &__img {
@@ -16,6 +22,11 @@
     &__desklamb {
         background-color: $whiteprod;
         border-radius: 8px;
+        transition: transform .2s;
+    }
+    &__desklamb:hover {
+        transform: scale(1.1);
+        filter: drop-shadow(rgba(0, 0, 0, 0.342) 1px 1px 8px);
     }
 
     &__description {
