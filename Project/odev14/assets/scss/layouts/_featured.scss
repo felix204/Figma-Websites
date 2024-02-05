@@ -5,15 +5,6 @@
     padding-bottom: 128px;
     padding-top: 2rem;
 
-    &__card {
-        transition: transform .2s;
-    }
-
-    &__card:hover {
-        transform: scale(1.1);
-        filter: drop-shadow(rgba(0, 0, 0, 0.342) 1px 1px 8px);
-    }
-
     &__type {
         color: var(--black-500-gray, #807E7E);
         font-feature-settings: 'clig' off, 'liga' off;
