@@ -4,7 +4,11 @@
 
     &__card {
         color: $text-color;
+        img {
+            border-radius: 8px;
+        }
     }
+
 
     &__header {
         display: flex;
