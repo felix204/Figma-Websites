@@ -4,6 +4,13 @@
     padding-top: 203px;
     padding-bottom: 136px;
 
+    @media only screen and (max-width: 600px) {
+        &__container {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
     &__container {
         display: flex;
     }

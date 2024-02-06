@@ -1,20 +1,18 @@
 /* Zoom In When Hovering */
 .zoom-in {
     transition: transform .2s;
+    &:hover {
+        transform: scale(1.1);
+            filter: drop-shadow(rgba(0, 0, 0, 0.342) 1px 1px 8px);
+    }
 }
 
-.zoom-in:hover {
-    transform: scale(1.1);
-        filter: drop-shadow(rgba(0, 0, 0, 0.342) 1px 1px 8px);
-}
 
 /* Zoom Out When Hovering */
-
 .zoom-out {
     transition: transform .2s;
-}
-
-.zoom-out:hover {
-    transform: scale(0.95);
-    filter: drop-shadow(rgba(0, 0, 0, 0.342) 1px 1px 8px);
+    &:hover {
+        transform: scale(0.95);
+        filter: drop-shadow(rgba(0, 0, 0, 0.342) 1px 1px 8px);
+    }
 }

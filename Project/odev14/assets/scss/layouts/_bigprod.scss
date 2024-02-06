@@ -1,32 +1,34 @@
-.big-prod {
+.products {
     display: flex;
     gap: 2rem;
     padding-bottom: 128px;
+}
 
-    &__armchair {
-        background-color: $blueprod;
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:  flex-start;
+    max-width: 50%;
+    background-color: $whiteprod;
+    border-radius: 8px;
+
+    &.-wide {
         max-width: 55%;
-        border-radius: 8px;
     }
 
-    &__img {
-        padding-bottom: 37px;
+    &.-blue {
+        background-color: $blueprod;
     }
 
-    &__desklamb {
-        background-color: $whiteprod;
-        border-radius: 8px;
-    }
-
-    &__description {
+    &__title {
         font-size: 20px;
         font-weight: 600;
         line-height: 30px;
-        text-align: left;
+
         padding: 40px;
         color: $text-color;
         
         max-width: 62%;
     }
-
 }

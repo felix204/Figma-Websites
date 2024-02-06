@@ -8,7 +8,6 @@
     &__type {
         color: var(--black-500-gray, #807E7E);
         font-feature-settings: 'clig' off, 'liga' off;
-        font-family: "Open Sans";
         font-size: 12px;
         font-style: normal;
         font-weight: 400;
@@ -32,7 +31,6 @@
     &__price {
         color: $text-color;
         font-feature-settings: 'clig' off, 'liga' off;
-        font-family: "Open Sans";
         font-size: 16px;
         font-weight: 600;
         line-height: 28px;

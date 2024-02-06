@@ -1,5 +1,4 @@
 .partner {
-
     &__description {
         font-family: "Open Sans";
         font-size: 14px;
@@ -18,18 +17,14 @@
 
         padding-top: 28px;
         padding-bottom: 100px;
-    }
 
-    &__images img {
-        -webkit-filter: brightness(100%);
-        -webkit-transition: all 1s ease;
-        -moz-transition: all 1s ease;
-        -o-transition: all 1s ease;
-        -ms-transition: all 1s ease;
-        transition: all 1s ease;
-    }
+        img {
+            filter: brightness(100%);
+            transition: all 250ms ease-in-out;
 
-    &__images img:hover {
-        -webkit-filter: brightness(50%);
+            &:hover {
+                filter: brightness(50%);
+            }
+        }
     }
 }

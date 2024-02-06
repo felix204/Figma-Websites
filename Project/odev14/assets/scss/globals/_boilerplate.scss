@@ -14,3 +14,12 @@ body {
 	width: min(calc(100% - 4rem), 1100px);
 	margin: 0 auto;
 }
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}

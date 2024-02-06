@@ -1,6 +1,13 @@
 .latest-artices {
 
+    position: relative;
     padding-bottom: 120px;
+
+    .second-link {
+        position: absolute;
+        right: 0;
+    
+    }
 
     &__card {
         color: $text-color;
