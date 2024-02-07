@@ -5,11 +5,39 @@
     padding-bottom: 136px;
 
     @media only screen and (max-width: 600px) {
+
+        padding-top: 100px;
+
         &__container {
             display: flex;
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
-    }
+
+        &__content {
+            min-width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-right: 0;
+        }
+
+        &__title {
+            text-align: center;
+            max-width: max-content;
+        }
+
+        &__description {
+            text-align: center;
+        }
+
+        &__image {
+            padding-top: 50px;
+        }
+        
+    } 
 
     &__container {
         display: flex;
@@ -17,8 +45,6 @@
 
     &__content {
         width: 50%;
-
-        padding-right: 40px;
     }
 
     &__title {
@@ -39,4 +65,6 @@
 
         padding-bottom: 18px;
     }
+
+    
 }
