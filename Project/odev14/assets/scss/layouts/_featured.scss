@@ -5,6 +5,25 @@
     padding-bottom: 128px;
     padding-top: 2rem;
 
+    /* Responsive */
+    @media only screen and (max-width: 600px) {
+        display: block;
+    }
+
+    /* /Responsive */
+
+    &__card {
+
+        /* Responsive */
+        @media only screen and (max-width: 600px) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* /Responsive */
+    }
+
     &__type {
         color: var(--black-500-gray, #807E7E);
         font-feature-settings: 'clig' off, 'liga' off;

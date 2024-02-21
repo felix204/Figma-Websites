@@ -1,6 +1,13 @@
 .collection {
     display: flex;
 
+    /* Responsive */
+    @media only screen and (max-width: 600px) {
+        display: block;
+    }
+
+    /* /Responsive */
+
     &__description {
         display: flex;
         flex-direction: column;
@@ -11,12 +18,25 @@
         border-radius: 6px 0px 0px 6px;
 
         padding: 0 64px;
+
+        /* Responsive */
+        @media only screen and (max-width: 600px) {
+            max-width: 100%;
+            padding: 40px;
+            border-radius: 6px 6px 0px 0px;
+        }
+
+        /* /Responsive */
     }
 
     &__product {
         background-color: $product;
-        
+
         border-radius: 0px 6px 6px 0px;
+
+        @media only screen and (max-width: 600px) {
+            border-radius: 0px 0px 6px 6px;
+        }
     }
 
     &__header {
