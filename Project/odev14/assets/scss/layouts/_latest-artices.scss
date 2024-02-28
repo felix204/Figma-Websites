@@ -11,6 +11,16 @@
 
     &__card {
         color: $text-color;
+
+        /* Responsive */
+        @media only screen and (max-width: 600px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* /Responsive */
+
         img {
             border-radius: 8px;
         }
@@ -23,6 +33,14 @@
     }
 
     &__wrapper {
+
+        /* Responsive */
+        @media only screen and (max-width: 600px) {
+            display: flex;
+            flex-direction: column;
+        }
+        /* /Responsive */
+
         display: flex;
         gap: 2rem;
         padding-top: 20px;
